@@ -28,14 +28,17 @@ function CourseContainer() {
           <div key={idx}>
             <div className="card-container">
               <div className="image-container">
-                <img alt={"course-img"} src={course.image} />
+                <img  alt={"course-img"} src={course.image} />
               </div>
-              <div className="card-title">
-                <h3>Course: {course.course_name}</h3>
+              <div className="card-content">
+                 <div className="card-title">
+                <h3> {course.course_name}</h3>
               </div>
               <div className="card-para">
                 <h4>Course Duration: {course.duration}</h4>
               </div>
+              </div>
+             
               <button className="btn secondary">View More</button>
             </div>
           </div>

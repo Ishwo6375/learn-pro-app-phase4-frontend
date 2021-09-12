@@ -22,12 +22,19 @@
 
 .image-container img{
  overflow: hidden;
- height: 200px;
+ height: 100px;
+ align-items: center;
 }
 .course-container-2{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-
 }
+
+.card-content{
+   margin: 1 rem;
+  margin-top: 0.5rem; 
+  
+}
+
