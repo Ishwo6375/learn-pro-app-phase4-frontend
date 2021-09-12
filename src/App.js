@@ -4,6 +4,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Navbar from './NavBar/Navbar';
+import CourseContainer from './Pages/CourseContainer';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/courses">
+           <CourseContainer />
           </Route>
           
       </Switch>
