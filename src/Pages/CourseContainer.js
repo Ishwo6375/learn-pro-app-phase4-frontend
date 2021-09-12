@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/courseContainer.css";
 
 function CourseContainer() {
@@ -39,7 +40,7 @@ function CourseContainer() {
               </div>
               </div>
              
-              <button className="btn secondary">View More</button>
+              <Link className="btn btn-primary" to={`/courses/${course.id}`}> View More</Link>
             </div>
           </div>
         ))}

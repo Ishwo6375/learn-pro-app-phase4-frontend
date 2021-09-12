@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Navbar from './NavBar/Navbar';
 import CourseContainer from './Pages/CourseContainer';
+import CourseDetails from './Pages/CourseDetails';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route exact path="/courses">
            <CourseContainer />
+          </Route>
+           <Route exact path="/courses/:id">
+            <CourseDetails />
           </Route>
           
       </Switch>
