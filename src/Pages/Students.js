@@ -45,7 +45,7 @@ function Students() {
             <Link className="btn btn-primary mx-3" to={`/students/edit/${student.id}`}>Edit Student</Link>
              <button
                         onClick={() => deleteStudent(student)}
-                        className="btn btn-danger mx-2"> Delete</button>
+                        className="btn btn-danger mx-2"> x</button>
                     </div>
         ))}
       </div>

@@ -14,6 +14,20 @@ function Instructor() {
     }, [])
     return (
         <div>
+            <div>
+                 <h3>
+              Are you Experienced about teaching Online? Part-time or full time
+              <br />
+              Join our team..
+              <br />
+              Apply Today!!!
+              <br />
+               
+                Apply Now
+                
+              <Link className="btn btn-primary" to={"/instructor/add"}>Join Team</Link>
+              </h3>
+            </div>
             <h1>Our Experienced Instructors</h1>
             <div className="instructor-container">
                 {instructors.map((instructor, idx) => (
@@ -25,7 +39,6 @@ function Instructor() {
                        <img className="ins-img" alt={"instructor-img"} src={instructor.image} />
                          
                             </div>
-                            
                             
 
                         </div>

@@ -37,7 +37,10 @@ function CourseContainer() {
                     careers, advancing in their fields, and enriching
                      their live</p>
                      <br />
+                     <div>
+                       <h4>view our enrolled students</h4>
             <Link className="btn btn-primary" to={"/students"}> Enrolled Students</Link>
+                     </div>
         </div>
 
         <div><h3>Students are viewing</h3>
@@ -59,6 +62,7 @@ function CourseContainer() {
               </div>
              
               <Link className="btn btn-primary" to={`/courses/${course.id}`}> View More</Link>
+               
             </div>
           </div>
         ))}

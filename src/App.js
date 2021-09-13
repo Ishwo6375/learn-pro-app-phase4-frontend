@@ -10,6 +10,7 @@ import Students from './Pages/Students';
 import Enrollment from './Pages/Enrollment';
 import StudentForm from './Forms/StudentForm';
 import EditStudents from './Forms/EditStudents';
+import InstructorForm from './Forms/InstructorForm';
 
 
 
@@ -42,6 +43,9 @@ function App() {
           </Route>
           <Route exact path="/students/edit/:id">
             <EditStudents />
+          </Route>
+          <Route exact path="/instructor/add">
+            <InstructorForm />
           </Route>
           
           

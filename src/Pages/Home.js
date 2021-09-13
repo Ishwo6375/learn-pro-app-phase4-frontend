@@ -17,7 +17,7 @@ function Home() {
 
           <div>
             <h3>
-              Are you passonate about teaching? Part-time or full time
+              Are you Experienced about teaching Online? Part-time or full time
               <br />
               Get Hired !!!
               <br />
@@ -25,7 +25,7 @@ function Home() {
               <br />
                
                 Apply Now
-              <Link className="btn btn-primary" to={"/students"}></Link>
+              <Link className="btn btn-primary" to={"/students"}>Add Course</Link>
             
               
             </h3>
