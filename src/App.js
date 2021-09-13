@@ -8,6 +8,7 @@ import CourseContainer from './Pages/CourseContainer';
 import CourseDetails from './Pages/CourseDetails';
 import Instructor from './Pages/Instructor';
 import Students from './Pages/Students';
+import Enrollment from './Pages/Enrollment';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
            <Route exact path="/students">
            <Students />
+          </Route>
+           <Route exact path="/enrollments">
+          <Enrollment />
           </Route>
           
       </Switch>
