@@ -58,4 +58,35 @@ h3{
    
 }
 
+.nav-container{
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+ font-size: 30px;
+ padding: 20px;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(25, 111, 122);
+    margin-top: 15px;
+    font-size: 30px;
+    transition: 0.5s all ease-in-out;
+      font-family: 'lato';
+    font-weight: 800;
+  
+}
+
+.navlinks{
+     display: flex;
+     list-style-type: none;
+     justify-content: space-around;
+    width: 50%;
+    font-size: 25px;
+}
+
+
+
+
 
