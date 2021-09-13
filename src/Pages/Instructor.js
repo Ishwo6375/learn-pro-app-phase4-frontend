@@ -25,6 +25,7 @@ function Instructor() {
                        <img className="ins-img" alt={"instructor-img"} src={instructor.image} />
                             </div>
                             
+                            
 
                         </div>
                        

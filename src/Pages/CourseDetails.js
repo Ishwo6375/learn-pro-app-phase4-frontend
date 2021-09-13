@@ -12,7 +12,7 @@ function CourseDetails() {
       .then((res) => res.json())
       .then((courseDetail) => setCourse(courseDetail));
     // eslint-disable-next-line
-  }, []);
+  }, [id]);
 
   return (
     <div className="course-details">
@@ -24,6 +24,10 @@ function CourseDetails() {
           <h4>{course.duration}</h4>
           <p>{course.rate}</p>
           <p>{course.price}</p>
+          <div>
+
+          </div>
+      
         </>
       )}
     </div>

@@ -9,6 +9,7 @@ import Instructor from './Pages/Instructor';
 import Students from './Pages/Students';
 import Enrollment from './Pages/Enrollment';
 
+
 function App() {
   return (
     <Router> 
@@ -33,6 +34,7 @@ function App() {
            <Route exact path="/enrollments">
           <Enrollment />
           </Route>
+         
           
       </Switch>
     </div>
