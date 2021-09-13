@@ -17,6 +17,16 @@ function Students() {
       .then((studentData) => setStudents(studentData));
   }
 
+  function deleteStudent(student) {
+    fetch(`${baseURL}/students/${student.id}`, {
+      method: "DELETE",
+    });
+    const newStudent = students.filter(
+      (res) => res.id !== student.id
+    );
+    setStudents(newStudent);
+  }
+
   return (
     <>
     <div>
@@ -33,7 +43,10 @@ function Students() {
             <h5>{student.gender}</h5>
             <h5>Resgistration No: CCBC{student.Registration_num}</h5>
             <Link className="btn btn-primary mx-3" to={`/students/edit/${student.id}`}>Edit Student</Link>
-          </div>
+             <button
+                        onClick={() => deleteStudent(student)}
+                        className="btn btn-danger mx-2"> Delete</button>
+                    </div>
         ))}
       </div>
     </div>

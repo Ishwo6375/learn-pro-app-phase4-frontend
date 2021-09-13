@@ -25,10 +25,6 @@ function Enrollment() {
                 {enrollments.map((enrollment, idx )=> (
                     <div>
                         <h3>{enrollment.enrollment_semester}</h3>
-                        <div>
-                            <h4>{enrollment.student_id}</h4>
-                            <h4>{enrollment.course_id}</h4>
-                        </div>
                     </div>
                 ))}
               </div>

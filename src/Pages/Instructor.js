@@ -23,6 +23,7 @@ function Instructor() {
                             <div className="div-content">
                        <div className="ins-para"><p >{instructor.description}</p></div>
                        <img className="ins-img" alt={"instructor-img"} src={instructor.image} />
+                         
                             </div>
                             
                             
