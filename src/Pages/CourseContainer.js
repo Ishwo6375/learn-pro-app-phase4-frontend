@@ -27,6 +27,21 @@ function CourseContainer() {
         <div className="picture-div">
             <img src="https://www.uakron.edu/statistics/images/data-science-banner.jpg?language_id=1" alt="img" />
         </div>
+        <div>
+            <h2>Transform your life 
+                <br />
+                through education</h2>
+                <br />
+                <p>Learners around the world are launching new 
+                    <br />
+                    careers, advancing in their fields, and enriching
+                     their live</p>
+                     <br />
+            <Link className="btn btn-primary" to={"/students"}> Enrolled Students</Link>
+        </div>
+
+        <div><h3>Students are viewing</h3>
+        </div>
       <div className="course-container-2">
         {courses.map((course, idx) => (
           <div key={idx}>
