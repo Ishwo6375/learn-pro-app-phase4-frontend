@@ -22,6 +22,12 @@ function CourseContainer() {
 
   return (
     <div>
+      <div>
+         <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      </div>
         
         <h1>Get Certified, Get Ahead with Our Programs</h1>
         <div className="picture-div">
@@ -55,10 +61,9 @@ function CourseContainer() {
               <div className="card-content">
                  <div className="card-title">
                 <h3> {course.course_name}</h3>
+                <h4>${course.price}</h4>
               </div>
-              <div className="card-para">
-    
-              </div>
+               
               </div>
              
               <Link className="btn btn-primary" to={`/courses/${course.id}`}> View More</Link>

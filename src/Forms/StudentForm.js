@@ -51,7 +51,7 @@ function StudentForm() {
 
 
     return (
-        <div className="container1">
+        <div className="container1 ">
             <div>
                 <h2 className="add">Add New Students</h2>
 
