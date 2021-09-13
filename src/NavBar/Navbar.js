@@ -14,6 +14,9 @@ function Navbar() {
         <NavLink className="nav-item" to="/courses">
          All Courses
         </NavLink>
+        <NavLink className="nav-item" to="/instructors">
+        Our Instructors
+        </NavLink>
         </div>
     )
 }

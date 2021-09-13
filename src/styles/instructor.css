@@ -1,0 +1,50 @@
+.instructor-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(231, 227, 221);
+}
+
+.ins-img{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px;
+    margin-right: 30px;
+    
+}
+
+.div-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.ins-para{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 60px;
+    color: rgb(248, 241, 241);
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(86, 88, 93);
+    border-radius: 30px;
+}
+
+h1{
+    padding: 30px;
+    text-align: center;
+
+}
+
+.ins-heading{
+    text-align: center;
+    margin: 30px; 
+    font-family: fantasy;
+    color: rgb(40, 185, 211);
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/courseContainer.css";
 
+
 function CourseContainer() {
   const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";
   //setting initial state to empty array//
@@ -17,12 +18,11 @@ function CourseContainer() {
       .then((courseData) => setCourses(courseData));
   }
 
-  //   const populateCourses = courses.map((course) => {
-  //     return <Course key={course.id} course={course} />;
-  //   });
+   
 
   return (
     <div>
+        
         <h1>Get Certified, Get Ahead with Our Programs</h1>
       <div className="course-container-2">
         {courses.map((course, idx) => (
@@ -36,7 +36,7 @@ function CourseContainer() {
                 <h3> {course.course_name}</h3>
               </div>
               <div className="card-para">
-                <h4>Course Duration: {course.duration}</h4>
+    
               </div>
               </div>
              
@@ -45,7 +45,7 @@ function CourseContainer() {
           </div>
         ))}
       </div>
-    </div>
+    </div> 
   );
 }
 

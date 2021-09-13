@@ -11,24 +11,23 @@ function CourseDetails() {
     fetch(`${baseURL}/courses/${id}`)
       .then((res) => res.json())
       .then((courseDetail) => setCourse(courseDetail));
-      // eslint-disable-next-line
-  }, []); 
+    // eslint-disable-next-line
+  }, []);
 
-
-    return (
-        <div className="course-details">
-            {course && (
-                <>
-                <h1>{course.name}</h1>
-                <img alt="course-pic" src={course.image} />
-                <h3>{course.description}</h3>
-                <h4>{course.duration}</h4>
-                <p>{course.rate}</p>
-                <p>{course.price}</p>
-                </>
-            )}
-        </div>
-    )
+  return (
+    <div className="course-details">
+      {course && (
+        <>
+          <h1>{course.name}</h1>
+          <img alt="course-pic" src={course.image} />
+          <h3>{course.description}</h3>
+          <h4>{course.duration}</h4>
+          <p>{course.rate}</p>
+          <p>{course.price}</p>
+        </>
+      )}
+    </div>
+  );
 }
 
-export default CourseDetails
+export default CourseDetails;
