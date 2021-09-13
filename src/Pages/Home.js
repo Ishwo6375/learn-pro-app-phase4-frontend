@@ -10,7 +10,10 @@ function Home() {
             World's #1
             <br />
             Online Bootcamp
+            <br />
+           <Link className="btn btn-primary" to={"/courses"}>Explore Programs</Link>
           </h1>
+          
 
           <div>
             <h3>
@@ -41,7 +44,7 @@ function Home() {
 
             <h4>Sign up Today!!</h4>
             <Link className="btn btn-primary" to={"/enroll"}>
-              {" "}
+             
               Sign UP
             </Link>
           </div>

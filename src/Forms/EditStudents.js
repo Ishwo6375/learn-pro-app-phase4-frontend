@@ -45,7 +45,7 @@ function EditStudents() {
       .then((res) => res.json())
       .then((newStudent) => {
         setEditStudent(newStudent);
-        history.push(`/students/${id}`)
+        history.push("/students")
       });
   }
     
@@ -57,7 +57,7 @@ function EditStudents() {
         <div className="container1">
               <h2 className="add">Edit Student</h2>
 
-                <form>
+                <form onSubmit={onSubmitEditStudent}>
                     <div className="login">
                         <input 
                         classname="input" 
