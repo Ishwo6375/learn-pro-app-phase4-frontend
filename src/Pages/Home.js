@@ -20,10 +20,11 @@ function Home() {
               <br />
               Apply Today!!!
               <br />
-              <Link className="btn btn-primary" to={"/students"}>
                
                 Apply Now
-              </Link>
+              <Link className="btn btn-primary" to={"/students"}></Link>
+            
+              
             </h3>
             <h1>OR</h1>
           </div>
@@ -39,7 +40,7 @@ function Home() {
             <br />
 
             <h4>Sign up Today!!</h4>
-            <Link className="btn btn-primary" to={"/students"}>
+            <Link className="btn btn-primary" to={"/enroll"}>
               {" "}
               Sign UP
             </Link>

@@ -8,6 +8,7 @@ import CourseDetails from './Pages/CourseDetails';
 import Instructor from './Pages/Instructor';
 import Students from './Pages/Students';
 import Enrollment from './Pages/Enrollment';
+import StudentForm from './Forms/StudentForm';
 
 
 function App() {
@@ -34,7 +35,9 @@ function App() {
            <Route exact path="/enrollments">
           <Enrollment />
           </Route>
-         
+          <Route exact path="/enroll">
+         <StudentForm />
+          </Route>
           
       </Switch>
     </div>
