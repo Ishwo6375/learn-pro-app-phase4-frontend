@@ -24,8 +24,9 @@
 
 .image-container img{
  overflow: hidden;
- height: 100px;
+ height: 180px;
  align-items: center;
+ 
 }
 .course-container-2{
     display: flex;
@@ -56,3 +57,5 @@ h3{
     margin-bottom: 100px;
    
 }
+
+

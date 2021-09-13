@@ -21,9 +21,16 @@ function Students() {
         <div>
             <div className="course-container-2">
                 {students.map((student, idx) => (
-                    <div>
+                    <div className="card-container">
+                        <div className="card-content">
+
                         <h2>{student.name}</h2>
+                        </div>
+                        <div className="image-container">
+
                         <img  alt={"student-img"} src={student.image} />
+                        </div>
+                        <h5>{student.email}</h5>
                         
                     </div>
                 ))}
