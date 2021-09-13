@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import "../styles/courseDetails.css";
+
 // import { Link } from "react-router-dom";
 
 function CourseDetails() {
@@ -19,16 +21,30 @@ function CourseDetails() {
     <div className="course-details">
       {course && (
         <>
-          <h1>{course.name}</h1>
-          <img alt="course-pic" src={course.image} />
-          <h3>{course.description}</h3>
+          <div className="course-img">
+        <h1>Course Details</h1>
+          </div>
+          <div>
+            <div>
+             <h1>{course.course_name}</h1>
+            </div>
+            <div className="course-content">
+               <img alt="course-pic" src={course.image} />
           <h4>{course.duration}</h4>
-          <p>{course.rate}</p>
-          <p>{course.price}</p>
+          <h4>Rating: {course.rate}</h4>
+          <h5>Cost: ${course.price}</h5>
+            </div>
+            <div className="course-des">
+
+               <h3>Course Description: {course.description}</h3>
+            </div>
+          </div>
+       
+        
           <div>
 
           </div>
-          
+      
         </>
       )}
     </div>

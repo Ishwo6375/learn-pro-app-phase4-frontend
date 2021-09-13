@@ -3,3 +3,29 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+.course-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.course-img img{
+    height: 500px;
+    background: rgb(42, 41, 39);
+    color: white;
+}
+
+.course-content{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px; 
+       
+}
+
+.course-des{
+    align-items: justify;
+    display: flex;
+}
