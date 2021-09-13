@@ -24,6 +24,9 @@ function CourseContainer() {
     <div>
         
         <h1>Get Certified, Get Ahead with Our Programs</h1>
+        <div className="picture-div">
+            <img src="https://www.uakron.edu/statistics/images/data-science-banner.jpg?language_id=1" alt="img" />
+        </div>
       <div className="course-container-2">
         {courses.map((course, idx) => (
           <div key={idx}>
