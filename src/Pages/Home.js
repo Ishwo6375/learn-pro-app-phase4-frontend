@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
 
-
 function Home() {
   return (
+    <>
     <div className="main-container">
       <div className="Home-div">
         <div className="home-heading">
@@ -13,9 +13,10 @@ function Home() {
             <br />
             Online Bootcamp
             <br />
-           <Link className="btn btn-primary" to={"/courses"}>Explore Programs</Link>
+            <Link className="btn btn-primary" to={"/courses"}>
+              Explore Programs
+            </Link>
           </h1>
-          
 
           <div className="home-div-2">
             <h3>
@@ -25,17 +26,15 @@ function Home() {
               <br />
               Apply Today!!!
               <br />
-               
-                Apply Now
-                <br />
-              <Link className="btn btn-primary" to={"/students"}>Add Course</Link>
-            
-              
+              Apply Now
+              <br />
+              <Link className="btn btn-primary" to={"/students"}>
+                Add Course
+              </Link>
             </h3>
-           
           </div>
 
-          <div className="home-div-2" >
+          <div className="home-div-2">
             <h3>
               Are you a thinking about pursuing Online Degree and
               <br />
@@ -47,13 +46,13 @@ function Home() {
 
             <h4>Sign up Today!!</h4>
             <Link className="btn btn-primary" to={"/enroll"}>
-             
               Sign UP
             </Link>
           </div>
         </div>
       </div>
     </div>
+    </>
   );
 }
 

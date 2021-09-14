@@ -36,9 +36,6 @@ function App() {
            <Route exact path="/students">
            <Students />
           </Route>
-           {/* <Route exact path="/enrollments">
-          <Enrollment />
-          </Route> */}
           <Route exact path="/enroll">
          <StudentForm />
           </Route>

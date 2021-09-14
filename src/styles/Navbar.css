@@ -12,3 +12,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.nav-container{
+      background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7))
+}
