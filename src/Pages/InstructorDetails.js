@@ -20,7 +20,7 @@ function InstructorDetails() {
       {instructor && (
         <>
           <div className="ins-content">
-            <div className="instructor-card">
+            <div >
               <h1 className="ins-heading">{instructor.name}</h1>
             </div>
             <div className="div-content">
@@ -41,7 +41,7 @@ function InstructorDetails() {
               <div>
                 <>
                   <div className="container1">
-                    <p>CONTACT ME</p>
+                    <p className="contact-p">CONTACT ME</p>
 
                     <div className="login">
                       <input
@@ -69,8 +69,9 @@ function InstructorDetails() {
                         className="area"
                         placeholder="Leave a Message"
                       ></textarea>
+                      
                     </div>
-                    <div className="btn-2">Send Message</div>
+                    <div className="btn-3">Send Message</div>
                   </div>
                 </>
               </div>

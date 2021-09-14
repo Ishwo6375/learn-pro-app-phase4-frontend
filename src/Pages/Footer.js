@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="inner-footer">
         <div className="footer-text">
           <p>
-            The design, style and content of a MovieNight.com website is generally meant
-            to meet visitors’ expectations of that website. Visitors expect to
+            The design, style and content of a LearnPro.com website is generally meant
+            to meet visitor's expectations of that website. Visitors expect to
             find websites that are graphically rich, with audio and video as
-            well. They expect something special, and entertainment value is
+            well. They expect something special, and educational value is
             often more important than the website being very accessible or
             fast-loading.
           </p>

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import  {useHistory } from 'react-router';
 
+
+
+
 function StudentForm() {
     const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";
     const history = useHistory();
@@ -69,7 +72,7 @@ function StudentForm() {
 
                     <div className="login">
                         <input 
-                        classname="input" 
+                        classname="input-1" 
                         type="text"
                          placeholder="Enter email address.." 
                          name="email"
@@ -80,7 +83,7 @@ function StudentForm() {
 
                     <div className="login">
                         <input 
-                        classname="input" 
+                        classname="input-1" 
                         type="text"
                          placeholder="Enter gender.." 
                          name="gender"
@@ -91,7 +94,7 @@ function StudentForm() {
 
                     <div className="login">
                         <input 
-                        classname="input" 
+                        classname="input-1" 
                         type="text"
                          placeholder="Enter image url.." 
                          name="image"
@@ -102,7 +105,7 @@ function StudentForm() {
 
                     <div className="login">
                         <input 
-                        classname="input" 
+                        classname="input-1" 
                         type="number"
                          placeholder="Enter registratopm Infromation.." 
                          name="Registration_num"

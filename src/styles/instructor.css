@@ -12,7 +12,7 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: rgb(231, 227, 221);
+  background: linear-gradient(rgba(225, 226, 235, 0.7), rgba(223, 125, 95, 0.7)), url("https://images.pexels.com/photos/3764402/pexels-photo-3764402.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3764402.jpg&fm=jpg");  
 }
 
 .ins-img {
@@ -39,7 +39,9 @@
   color: rgb(253, 247, 247);
   margin-left: 50px;
   margin-right: 50px;
-  background: linear-gradient(rgba(24, 24, 23, 0.7), rgba(69, 20, 185, 0.7));
+  background: linear-gradient(rgba(23, 24, 24, 0.7), rgba(112, 88, 173, 0.7));
+   background-size: cover;
+  background-position: center;
   border-radius: 30px;
   font-family: "Exo 2", sans-serif;
 }
@@ -48,15 +50,15 @@ h1 {
   padding: 10px;
   text-align: center;
   font-family: "Exo 2", sans-serif;
+  color: white;
 }
 
 .ins-heading {
   text-align: center;
-  margin: 30px;
-  font-family: fantasy;
-  color: rgb(40, 185, 211);
+  color: rgb(231, 243, 245);
   font-family: "Exo 2", sans-serif;
   font-weight: bold;
+  padding: 30px;
 }
 
 .picture-div-1 {
@@ -71,6 +73,8 @@ h1 {
   font-family: "Exo 2", sans-serif;
   background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7)),
     url(bg1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .picture-div-1 h3 {
@@ -95,4 +99,8 @@ h1 {
   margin-bottom: 40px;
   font-weight: 900;
   opacity: 0.6;
+}
+
+.ins-title{
+    color: darkgoldenrod;
 }

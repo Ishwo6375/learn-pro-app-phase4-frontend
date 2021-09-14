@@ -30,14 +30,13 @@ function Instructor() {
               <Link className="btn btn-primary" to={"/instructor/add"}>Join Team</Link>
               </h3>
             </div>
-            <h1 className="heading-ins">Our Experienced Instructors</h1>
+            <h1 className="ins-title">Our Experienced Instructors</h1>
             <div className="instructor-container">
                 {instructors.map((instructor, idx) => (
                     <div key={idx}>
                         <div className="instructor-card">
                         <h1 className="ins-heading">{instructor.name}</h1>
                             <div className="div-content">
-                       {/* <div className="ins-para"><p >{instructor.description}</p></div> */}
                        <img className="ins-img" alt={"instructor-img"} src={instructor.image} />
                             </div>
 
