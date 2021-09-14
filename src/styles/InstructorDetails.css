@@ -1,0 +1,63 @@
+.container1 {
+  max-width: 800px;
+  height: 600px;
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7)),
+    ;
+  background-size: cover;
+  background-position: center;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+  background-size: cover;
+  background-position: cent;
+}
+
+.login .input:last-child {
+  margin-right: 0;
+}
+
+.input,
+.msg .area {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.msg .area {
+  height: 150px;
+}
+
+.btn-2 {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 6px;
+  background-color: rgb(122, 122, 207);
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  margin-top: 50px;
+  text-align: center;
+}
+.btn-2:hover {
+  background-color: rgb(54, 50, 51);
+}
+
+.contact-head{
+    text-align: center;
+     font-family: 'Exo 2', sans-serif;
+     font-weight: bold; 
+     color: rgb(219, 133, 47);
+}

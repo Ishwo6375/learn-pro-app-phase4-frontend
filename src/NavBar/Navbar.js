@@ -16,9 +16,6 @@ function Navbar() {
         <NavLink className="nav-item" to="/instructors">
         Our Instructors
         </NavLink>
-         <NavLink className="nav-item" to="/enrollments">
-        Upcoming Enrollments
-        </NavLink>
         </div>
     )
 }

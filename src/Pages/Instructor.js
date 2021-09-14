@@ -37,15 +37,11 @@ function Instructor() {
                         <div className="instructor-card">
                         <h1 className="ins-heading">{instructor.name}</h1>
                             <div className="div-content">
-                       <div className="ins-para"><p >{instructor.description}</p></div>
+                       {/* <div className="ins-para"><p >{instructor.description}</p></div> */}
                        <img className="ins-img" alt={"instructor-img"} src={instructor.image} />
-                           <Link
-                        className="btn btn-primary"
-                        to={`/instructors/${instructor.id}`}
-                      >
-                          show Details
-                      </Link>
                             </div>
+
+                            <Link className="btn-1 btn-info" to={`/instructors/${instructor.id}`}> Know More</Link>
                         </div>
                        
                     </div>
