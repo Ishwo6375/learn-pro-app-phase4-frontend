@@ -12,15 +12,18 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    padding: 50px;
+    padding: 80px;
     font-family: 'Exo 2', sans-serif;
     margin: 20px;
     color: white;
+    font-size: 65px;
 }
 
 .main-container{
-     background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7)),url(bgh.jpeg);
+     background: linear-gradient(rgba(32, 148, 80, 0.7), rgba(29, 60, 197, 0.7)),url(bgh.jpeg);
       background-size: cover;
   background-position: center;
 }
+
+
 

@@ -7,6 +7,7 @@ function CourseContainer() {
   const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";
   //setting initial state to empty array//
   const [courses, setCourses] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     showCourses();
@@ -24,7 +25,11 @@ function CourseContainer() {
     <div>
       <div>
          <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+            onChange={(e) => {
+            setSearchTerm(e.target.value);
+          }}
+         />
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
       </div>
@@ -52,7 +57,18 @@ function CourseContainer() {
         <div className="course-view"><h3>Students are viewing</h3>
         </div>
       <div className="course-container-2">
-        {courses.map((course, idx) => (
+        {courses.filter((value) => {
+              if (searchTerm === "") {
+                return value;
+              } else if (
+                value.course_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                value.course_type.toLowerCase().includes(searchTerm.toLowerCase())
+              ) {
+                return value;
+              }
+            })
+        
+           .map((course, idx) => (
           <div key={idx}>
             <div className="card-container">
               <div className="image-container">

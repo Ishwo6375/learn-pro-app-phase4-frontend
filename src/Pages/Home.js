@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="main-container">
       <div className="Home-div">
-        <div>
+        <div className="home-heading">
           <h1>
             World's #1
             <br />
