@@ -14,9 +14,11 @@ function Instructor() {
     }, [])
     return (
         <div>
-            <div>
-                 <h3>
-              Are you Experienced about teaching Online? Part-time or full time
+            <div className="picture-div-1">
+                 <h3 >
+              Are you Experienced about teaching Online?
+                <br />
+               Part-time or full time
               <br />
               Join our team..
               <br />
@@ -24,8 +26,10 @@ function Instructor() {
               <br />
                
                 Apply Now
-                
+                <div>
+
               <Link className="btn btn-primary" to={"/instructor/add"}>Join Team</Link>
+                </div>
               </h3>
             </div>
             <h1>Our Experienced Instructors</h1>

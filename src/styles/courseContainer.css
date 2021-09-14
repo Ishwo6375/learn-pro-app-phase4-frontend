@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,300&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -61,6 +63,7 @@ h3{
     padding: 70px;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
    
 }
 
@@ -70,6 +73,7 @@ h3{
   justify-items: center;
  font-size: 30px;
  padding: 20px;
+ 
 }
 
 .nav-item{
@@ -79,7 +83,7 @@ h3{
     margin-top: 15px;
     font-size: 30px;
     transition: 0.5s all ease-in-out;
-      font-family: 'lato';
+      font-family: 'Exo 2', sans-serif;
     font-weight: 800;
   
 }
