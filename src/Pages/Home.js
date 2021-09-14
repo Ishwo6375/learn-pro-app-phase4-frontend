@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/Home.css";
+
 
 function Home() {
   return (
@@ -15,7 +17,7 @@ function Home() {
           </h1>
           
 
-          <div>
+          <div className="home-div-2">
             <h3>
               Are you Experienced about teaching Online? Part-time or full time
               <br />
@@ -25,6 +27,7 @@ function Home() {
               <br />
                
                 Apply Now
+                <br />
               <Link className="btn btn-primary" to={"/students"}>Add Course</Link>
             
               
@@ -32,7 +35,7 @@ function Home() {
            
           </div>
 
-          <div className="Home-div">
+          <div className="home-div-2" >
             <h3>
               Are you a thinking about pursuing Online Degree and
               <br />

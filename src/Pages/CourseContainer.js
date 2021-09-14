@@ -66,6 +66,7 @@ function CourseContainer() {
               </div>
              
               <Link className="btn btn-info" to={`/courses/${course.id}`}> View More</Link>
+              <Link className="btn btn-secondary" to={`/instructors/${course.instructor.id}`}>Restaurant</Link>
                
             </div>
           </div>

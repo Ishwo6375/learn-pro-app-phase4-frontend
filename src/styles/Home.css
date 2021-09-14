@@ -1,0 +1,19 @@
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,300&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.Home-div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 50px;
+    font-family: 'Exo 2', sans-serif;
+    margin: 20px;
+}
+

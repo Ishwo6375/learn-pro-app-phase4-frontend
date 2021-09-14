@@ -11,6 +11,8 @@ import Enrollment from './Pages/Enrollment';
 import StudentForm from './Forms/StudentForm';
 import EditStudents from './Forms/EditStudents';
 import InstructorForm from './Forms/InstructorForm';
+import InstructorDetails from './Pages/InstructorDetails';
+
 
 
 
@@ -46,6 +48,9 @@ function App() {
           </Route>
           <Route exact path="/instructor/add">
             <InstructorForm />
+          </Route>
+          <Route exact path="/instructors/:id">
+            <InstructorDetails />
           </Route>
           
       </Switch>
