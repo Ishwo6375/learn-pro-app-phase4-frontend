@@ -15,17 +15,11 @@ function CourseDetails() {
       .then((res) => res.json())
       .then((courseDetail) => setCourse(courseDetail));
     // eslint-disable-next-line
-  }, [id]);
+  }, []);
 
   return (
     <div className="course-details">
-      {course && (
-        <>
-          <div className="course-img">
-        <h1>Course Details</h1>
-          </div>
-          <div>
-            <div>
+       <div>
              <h1>{course.course_name}</h1>
             </div>
             <div className="course-content">
@@ -38,16 +32,27 @@ function CourseDetails() {
 
                <h3>Course Description: {course.description}</h3>
             </div>
-          </div>
-       
-        
-          <div>
 
-          </div>
-      
-        </>
-      )}
-    </div>
+       {/* <div className="courses">
+        {courses.map((course, idx) => {(
+            <div key={idx}>
+              <h4>{course.course_name}</h4>
+              <img  alt={"instructor-img"} src={course.image} />
+               <p>{course.description}</p>
+              <span>
+                {course.instructor.map((ins, i) => (
+                  <div key={i}>
+                    <h1>{ins.name}</h1>
+                    <img  alt={"instructor-img"} src={ins.image} />
+              
+                  </div>
+                ))}
+              </span>
+            </div>
+          );
+        })}
+      </div> */}
+      </div>
   );
 }
 

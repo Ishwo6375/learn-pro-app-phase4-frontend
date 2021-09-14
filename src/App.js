@@ -11,7 +11,6 @@ import Enrollment from './Pages/Enrollment';
 import StudentForm from './Forms/StudentForm';
 import EditStudents from './Forms/EditStudents';
 import InstructorForm from './Forms/InstructorForm';
-import Footer from './Pages/Footer';
 
 
 
@@ -48,7 +47,7 @@ function App() {
           <Route exact path="/instructor/add">
             <InstructorForm />
           </Route>
-          <Footer />
+          
       </Switch>
     </div>
     </Router>

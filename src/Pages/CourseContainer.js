@@ -62,8 +62,7 @@ function CourseContainer() {
                  <div className="card-title">
                 <h3> {course.course_name}</h3>
                 <h4>${course.price}</h4>
-              </div>
-               
+               </div>
               </div>
              
               <Link className="btn btn-info" to={`/courses/${course.id}`}> View More</Link>
