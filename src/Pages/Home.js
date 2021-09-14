@@ -29,7 +29,7 @@ function Home() {
             
               
             </h3>
-            <h1>OR</h1>
+           
           </div>
 
           <div className="Home-div">

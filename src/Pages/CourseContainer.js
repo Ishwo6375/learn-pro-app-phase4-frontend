@@ -30,10 +30,8 @@ function CourseContainer() {
       </div>
         
         <h1>Get Certified, Get Ahead with Our Programs</h1>
-        <div className="picture-div">
-            <img src="https://www.uakron.edu/statistics/images/data-science-banner.jpg?language_id=1" alt="img" />
-        </div>
-        <div>
+        <div >
+           <div className="picture-div">
             <h2>Transform your life 
                 <br />
                 through education</h2>
@@ -47,6 +45,8 @@ function CourseContainer() {
                        <h4>view our enrolled students</h4>
             <Link className="btn btn-primary" to={"/students"}> Enrolled Students</Link>
                      </div>
+        </div>
+      
         </div>
 
         <div><h3>Students are viewing</h3>
