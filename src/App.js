@@ -7,7 +7,6 @@ import CourseContainer from './Pages/CourseContainer';
 import CourseDetails from './Pages/CourseDetails';
 import Instructor from './Pages/Instructor';
 import Students from './Pages/Students';
-import Enrollment from './Pages/Enrollment';
 import StudentForm from './Forms/StudentForm';
 import EditStudents from './Forms/EditStudents';
 import InstructorForm from './Forms/InstructorForm';

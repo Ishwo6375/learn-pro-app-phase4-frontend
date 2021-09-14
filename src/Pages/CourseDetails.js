@@ -38,9 +38,7 @@ function CourseDetails() {
              <div className="course-des">
 
                <h3>Course Description: {course.description}</h3>
-                <div>
-                  <h2>Contact</h2>
-                </div>
+               
         
               <div>
 

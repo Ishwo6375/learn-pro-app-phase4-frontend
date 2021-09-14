@@ -14,7 +14,7 @@
   animation: ease-in-out;
   padding: 10px;
   margin: 20px;
-  background: cornsilk;
+  background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7));
   
 }
 
@@ -28,15 +28,19 @@
  overflow: hidden;
  height: 180px;
  align-items: center;
+ margin-bottom: 20px;
  
 }
 .course-container-2{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Exo 2', sans-serif;
-    
+    color: white;
+    padding: 20px;
+    margin: 20px;
+
    
 }
 
@@ -50,6 +54,7 @@ h3{
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 .picture-div{
@@ -84,7 +89,7 @@ h3{
     color: rgb(25, 111, 122);
     margin-top: 15px;
     font-size: 30px;
-    transition: 0.5s all ease-in-out;
+    transition: 0.9s all ease-in-out;
       font-family: 'Exo 2', sans-serif;
     font-weight: 800;
   
@@ -99,10 +104,13 @@ h3{
 }
 
 .btn{
- font-size: 20px;
- font-weight: 700;
+ font-size: 15px;
+ font-weight: 500;
  border-radius: 10px;
+ margin: 10px;
+   font-family: 'Exo 2', sans-serif;
 }
+
 
 
 

@@ -15,5 +15,12 @@
     padding: 50px;
     font-family: 'Exo 2', sans-serif;
     margin: 20px;
+    color: white;
+}
+
+.main-container{
+     background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7)),url(bgh.jpeg);
+      background-size: cover;
+  background-position: center;
 }
 

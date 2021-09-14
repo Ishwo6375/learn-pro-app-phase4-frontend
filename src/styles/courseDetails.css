@@ -60,3 +60,7 @@ footer{
 .icons li{
   list-style: none;
 }
+
+.course-price{
+  text-align: center;
+}

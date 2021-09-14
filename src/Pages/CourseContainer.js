@@ -49,7 +49,7 @@ function CourseContainer() {
       
         </div>
 
-        <div><h3>Students are viewing</h3>
+        <div className="course-view"><h3>Students are viewing</h3>
         </div>
       <div className="course-container-2">
         {courses.map((course, idx) => (
@@ -61,7 +61,9 @@ function CourseContainer() {
               <div className="card-content">
                  <div className="card-title">
                 <h3> {course.course_name}</h3>
-                <h4>${course.price}</h4>
+               </div>
+               <div className="course-price">
+                 <h4>${course.price}</h4>
                </div>
               </div>
              
