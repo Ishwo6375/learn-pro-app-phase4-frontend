@@ -50,6 +50,7 @@
   transition: all 0.3s;
   margin-top: 50px;
   text-align: center;
+  margin-top: 20px;
 }
 .btn-2:hover {
   background-color: rgb(54, 50, 51);
