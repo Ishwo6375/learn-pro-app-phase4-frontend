@@ -11,6 +11,7 @@ import StudentForm from './Forms/StudentForm';
 import EditStudents from './Forms/EditStudents';
 import InstructorForm from './Forms/InstructorForm';
 import InstructorDetails from './Pages/InstructorDetails';
+import Footer from './Pages/Footer';
 
 
 
@@ -50,6 +51,7 @@ function App() {
           </Route>
           
       </Switch>
+          <Footer />
     </div>
     </Router>
   );

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,300&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -31,7 +32,9 @@
 }
 
 footer{
-  background-color: #1f1d1d;
+  background: linear-gradient(rgba(31, 34, 218, 0.7), rgba(203, 173, 216, 0.7)), url(bg.jpg);
+  background-size: cover;
+  background-position: center;
   font-size: 12px;
   color: rgb(228, 43, 43);
 }
@@ -40,21 +43,35 @@ footer{
  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2em 3em;
+  padding: 1em 3em;
+  text-align: justify;
+  overflow: hidden;
 }
 
 .footer-text{
  width: 40%;
+ font-size: 18px;
+ color: cornsilk;
+ font-family: 'Exo 2', sans-serif;
+ font-weight: bold;
 }
 
 .contact{
   margin-right: 3em;
+  font-size: 20px;
+ color: cornsilk;
+ font-family: 'Exo 2', sans-serif;
 }
 
-.copright{
-  background-color: #000;
+.copyright{
+  background: linear-gradient(rgba(31, 34, 218, 0.7), rgba(203, 173, 216, 0.7)), url(bg.jpg);
+  background-size: cover;
+  background-position: center;
   text-align: center;
   padding: 1em;
+  font-size: 20px;
+ color: cornsilk;
+ font-family: 'Exo 2', sans-serif;
 }
 
 .icons li{

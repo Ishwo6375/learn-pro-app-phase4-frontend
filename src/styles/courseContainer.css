@@ -73,7 +73,9 @@ h3 {
   justify-items: center;
   font-size: 20px;
   padding: 30px;
-  background: linear-gradient(rgba(58, 143, 143, 0.7), rgba(156, 158, 40, 0.7));
+  background: linear-gradient(rgba(31, 34, 218, 0.7), rgba(203, 173, 216, 0.7)), url(bg.jpg);
+      background-size: cover;
+  background-position: center;
 }
 
 .nav-item {
@@ -85,6 +87,7 @@ h3 {
   transition: 0.9s all ease-in-out;
   font-family: "Exo 2", sans-serif;
   font-weight: 800;
+  
 }
 
 .navlinks {
@@ -93,6 +96,10 @@ h3 {
   justify-content: space-around;
   width: 50%;
   font-size: 25px;
+}
+
+.nav-item:hover{
+  color: rgb(198, 228, 27);
 }
 
 .btn {
