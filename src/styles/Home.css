@@ -24,6 +24,8 @@
      background: linear-gradient(rgba(32, 148, 80, 0.7), rgba(29, 60, 197, 0.7)),url(bgh.jpeg);
       background-size: cover;
   background-position: center;
+  margin-bottom: -20px;
+  margin-top: -20px;
 }
 
 

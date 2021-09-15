@@ -64,9 +64,11 @@
 }
 
 .ins-profile{
-  background: linear-gradient(rgba(80, 81, 82, 0.7), rgba(26, 179, 218, 0.7)), url("https://images.pexels.com/photos/3764402/pexels-photo-3764402.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3764402.jpg&fm=jpg");  
+  background: linear-gradient(rgba(80, 81, 82, 0.7), rgba(26, 179, 218, 0.7)), url("https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?cs=srgb&dl=pexels-josh-sorenson-1714208.jpg&fm=jpg");  
   background-size: cover;
   background-position: center;
+  margin-bottom: -40px;
+  
 }
 
 .contact-p{

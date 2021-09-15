@@ -20,6 +20,7 @@ function InstructorDetails() {
       {instructor && (
         <>
           <div className="ins-content">
+            Course Details
             <div >
               <h1 className="ins-heading">{instructor.name}</h1>
             </div>

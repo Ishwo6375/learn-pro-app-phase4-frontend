@@ -7,6 +7,7 @@
 }
 
 .instructor-card {
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,11 +64,11 @@ h1 {
 
 .picture-div-1 {
   display: flex;
+  padding: 40px;
   justify-content: center;
   justify-items: center;
   flex-wrap: wrap;
   width: 100%;
-  margin-bottom: 100px;
   font-size: 25px;
   font-weight: bold;
   font-family: "Exo 2", sans-serif;
@@ -99,8 +100,10 @@ h1 {
   margin-bottom: 40px;
   font-weight: 900;
   opacity: 0.6;
+ 
 }
 
 .ins-title{
-    color: darkgoldenrod;
+    color: rgb(42, 39, 39);
+     
 }
