@@ -107,12 +107,14 @@ h3 {
   color: rgb(198, 228, 27);
 }
 
-.btn {
-  font-size: 15px;
-  font-weight: 500;
+.btn-3 {
+  font-size: 25px;
+  font-weight: 600;
+  background: rgb(12, 74, 199);
   border-radius: 10px;
   margin: 10px;
   font-family: "Exo 2", sans-serif;
+  text-decoration: none;
 }
 
 .logo img{

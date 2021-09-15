@@ -24,6 +24,7 @@ function CourseContainer() {
   return (
     <div>
       <div className="course-main">
+       
          <form className="d-flex">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"
             onChange={(e) => {
@@ -47,8 +48,8 @@ function CourseContainer() {
                      their live</p>
                      <br />
                      <div>
-                       <h4>view our enrolled students</h4>
-            <Link className="btn btn-primary" to={"/students"}> Enrolled Students</Link>
+                       <h2>view our enrolled students</h2>
+            <Link className="btn-3 btn-secondary" to={"/students"}> Enrolled Students</Link>
                      </div>
         </div>
       
