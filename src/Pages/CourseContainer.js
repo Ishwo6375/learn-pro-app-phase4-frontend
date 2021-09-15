@@ -23,9 +23,9 @@ function CourseContainer() {
 
   return (
     <div>
-      <div>
-         <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+      <div className="course-main">
+         <form className="d-flex">
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"
             onChange={(e) => {
             setSearchTerm(e.target.value);
           }}
@@ -34,7 +34,7 @@ function CourseContainer() {
       </form>
       </div>
         
-        <h1>Get Certified, Get Ahead with Our Programs</h1>
+        <h1 className="course-head">Get Certified, Get Ahead with Our Programs</h1>
         <div >
            <div className="picture-div">
             <h2>Transform your life 

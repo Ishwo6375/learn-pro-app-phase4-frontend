@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 .card-container {
   width: 300px;
   overflow: hidden;
@@ -37,6 +38,10 @@
   color: white;
   padding: 20px;
   margin: 20px;
+  background: linear-gradient(rgba(226, 233, 238, 0.7), rgba(193, 212, 80, 0.7)),
+    url("https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+    background-size: cover;
+  background-position: center;
 }
 
 .card-content {
@@ -73,8 +78,9 @@ h3 {
   justify-items: center;
   font-size: 20px;
   padding: 30px;
-  background: linear-gradient(rgba(31, 34, 218, 0.7), rgba(203, 173, 216, 0.7)), url(bg.jpg);
-      background-size: cover;
+  background: linear-gradient(rgba(31, 34, 218, 0.7), rgba(203, 173, 216, 0.7)),
+    url(bg.jpg);
+  background-size: cover;
   background-position: center;
 }
 
@@ -87,7 +93,6 @@ h3 {
   transition: 0.9s all ease-in-out;
   font-family: "Exo 2", sans-serif;
   font-weight: 800;
-  
 }
 
 .navlinks {
@@ -98,7 +103,7 @@ h3 {
   font-size: 25px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   color: rgb(198, 228, 27);
 }
 
@@ -108,4 +113,9 @@ h3 {
   border-radius: 10px;
   margin: 10px;
   font-family: "Exo 2", sans-serif;
+}
+
+.logo img{
+  width: 5px;
+  height: 5px;
 }

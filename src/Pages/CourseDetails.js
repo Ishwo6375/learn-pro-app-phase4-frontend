@@ -25,6 +25,9 @@ function CourseDetails() {
           <>
             <div>
                 <h1 className="course-head">{course.course_name}</h1>
+                <div>
+                    <p className="course-para">{course.description}</p>
+                </div>
                 
               <div className="course-content">
                 <img className="course-img" alt="course-pic" src={course.image} />
@@ -32,6 +35,9 @@ function CourseDetails() {
                   <h4>Duration: {course.duration}</h4>
                   <h4>Rating: {course.rate}</h4>
                   <h5>Cost: ${course.price}</h5>
+                </div>
+                  <button className=" btn btn-secondary">Apply Now</button>
+                <div>
                 </div>
               </div>
             </div>

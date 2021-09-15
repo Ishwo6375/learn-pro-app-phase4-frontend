@@ -5,11 +5,7 @@
   box-sizing: border-box;
 }
 
-.course-main{
-   background: linear-gradient(rgba(219, 228, 223, 0.7), rgba(224, 225, 231, 0.7));
-      background-size: cover;
-  background-position: center;
-}
+
 
 .course-head{
   color: rgb(59, 64, 68);
@@ -20,12 +16,18 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+   
 }
 
 .course-img{
   width: 900px;
 }
 
+.course-para{
+  font-size: 20px;
+  font-weight: 700;
+   font-family: 'Exo 2', sans-serif;
+}
 
 
 .course-items{

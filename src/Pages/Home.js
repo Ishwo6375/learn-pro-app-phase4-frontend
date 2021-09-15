@@ -8,18 +8,18 @@ function Home() {
     <div className="main-container">
       <div className="Home-div">
         <div className="home-heading">
-          <h1>
+          <h1 className="top-head">
             World's #1
             <br />
             Online Bootcamp
             <br />
             <Link className="btn btn-primary" to={"/courses"}>
-              Explore Programs
+              <h4>Explore Programs</h4>
             </Link>
           </h1>
 
           <div className="home-div-2">
-            <h3>
+            <h2>
               Are you Experienced about teaching Online? Part-time or full time
               <br />
               Get Hired !!!
@@ -29,25 +29,27 @@ function Home() {
               Apply Now
               <br />
               <Link className="btn btn-primary" to={"/students"}>
-                Add Course
+                 <h4>Add Course</h4>
               </Link>
-            </h3>
+            </h2>
           </div>
 
           <div className="home-div-2">
-            <h3>
-              Are you a thinking about pursuing Online Degree and
+            <h2>
+              Are you  thinking about pursuing Online Degree or Certification and
               <br />
               Improve your skills??
               <br />
               If yes you are in the right place...
-            </h3>
+            </h2>
             <br />
-
-            <h4>Sign up Today!!</h4>
+            <div className="sign-up">
+            <h2 >Sign up Today!!</h2>
             <Link className="btn btn-primary" to={"/enroll"}>
-              Sign UP
+              <h4>Sign up</h4>
             </Link>
+
+            </div>
           </div>
         </div>
       </div>
