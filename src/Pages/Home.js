@@ -44,9 +44,9 @@ function Home() {
             </h2>
             <br />
             <div className="sign-up">
-            <h2 >Sign up Today!!</h2>
+            <h2 >Enroll  Today!!</h2>
             <Link className="btn btn-primary" to={"/enroll"}>
-              <h4>Sign up</h4>
+              <h4>Enroll</h4>
             </Link>
 
             </div>

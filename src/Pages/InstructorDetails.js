@@ -42,7 +42,7 @@ function InstructorDetails() {
               <div>
                 <>
                   <div className="container1">
-                    <p className="contact-p">CONTACT ME</p>
+                    <p className="contact-p">CONTACT {instructor.name}</p>
 
                     <div className="login">
                       <input

@@ -25,8 +25,8 @@ function CourseContainer() {
     <div>
       <div className="course-main">
        
-         <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+         <form className="d-flex my-3">
+        <input className="form-control me-3" type="search" placeholder="What you want to learn?" aria-label="Search"
             onChange={(e) => {
             setSearchTerm(e.target.value);
           }}
@@ -55,7 +55,7 @@ function CourseContainer() {
       
         </div>
 
-        <div className="course-view"><h3>Students are viewing</h3>
+        <div className="course-view mx-10"><h3>Students are viewing</h3>
         </div>
       <div className="course-container-2">
         {courses.filter((value) => {
