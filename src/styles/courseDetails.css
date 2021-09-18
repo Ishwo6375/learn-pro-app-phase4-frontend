@@ -85,7 +85,7 @@ footer{
 }
 
 .copyright{
-  background: linear-gradient(rgba(31, 34, 218, 0.7), rgba(203, 173, 216, 0.7)), url(bg.jpg);
+  background: linear-gradient(rgba(134, 136, 218, 0.7), rgba(203, 173, 216, 0.7)), url(bg.jpg);
   text-align: center;
   padding: 1em;
   font-size: 20px;

@@ -112,7 +112,7 @@ h3 {
   font-weight: 600;
   background: rgb(12, 74, 199);
   border-radius: 10px;
-  margin: 10px;
+  margin-left: 10px;
   font-family: "Exo 2", sans-serif;
   text-decoration: none;
 }
@@ -120,4 +120,10 @@ h3 {
 .logo img{
   width: 5px;
   height: 5px;
+}
+
+.btn{
+  margin: 10px;
+  font-weight: 600;
+  padding: 8px;
 }

@@ -1,6 +1,8 @@
 import React, { useState , useEffect } from "react";
 import  {useHistory } from 'react-router';
 import { useParams } from "react-router-dom";
+import "../styles/InstructorDetails.css";
+
 
 function EditStudents() {
      const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";
