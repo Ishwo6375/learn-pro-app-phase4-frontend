@@ -29,6 +29,7 @@ function Students() {
 
   return (
     <>
+    <Link className="btn btn-info" to={"/courses"}>Back</Link>
     <div>
       <div className="course-container-2">
         {students.map((student, idx) => (

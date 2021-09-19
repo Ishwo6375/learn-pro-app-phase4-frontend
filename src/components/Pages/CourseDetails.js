@@ -29,6 +29,7 @@ function CourseDetails() {
         {course && (
           <>
             <div>
+              <Link className="btn btn-info" to={"/courses"}>Back</Link>
                 <h1 className="course-head">{course.course_name}</h1>
                 <div>
                     <p className="course-para">{course.description}</p>
@@ -43,6 +44,7 @@ function CourseDetails() {
                 </div>
                 <div>
                   <Link className="btn btn-info" to={"/enroll"}>Apply Now</Link>
+                  
                 </div>
                   <div>
                    

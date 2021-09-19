@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "../styles/InstructorDetails.css";
 
 function InstructorDetails() {
@@ -23,8 +23,9 @@ function InstructorDetails() {
     <div className="ins-profile">
       {instructor && (
         <>
+        <Link className="btn btn-info" to={"/instructors"}>Back</Link>
           <div className="ins-content">
-            Course Details
+          
             <div >
               <h1 className="ins-heading">{instructor.name}</h1>
             </div>
