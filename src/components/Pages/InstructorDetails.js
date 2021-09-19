@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import "../styles/InstructorDetails.css";
+import emailjs from 'emailjs-com'
 
 function InstructorDetails() {
   const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";

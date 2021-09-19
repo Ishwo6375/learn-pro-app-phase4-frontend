@@ -13,6 +13,7 @@ import InstructorDetails from './components/Pages/InstructorDetails';
 import Footer from './components/Pages/Footer';
 import Navbar from './components/NavBar/Navbar';
 import CourseForm from './components/Forms/CourseForm';
+import Contact from './components/Pages/Contact';
 
 
 
@@ -53,7 +54,9 @@ function App() {
           <Route exact path="/course/add">
             <CourseForm />
           </Route>
-          
+          <Route exact path="/contact">
+           <Contact />
+          </Route>
       </Switch>
     </div>
         <Footer />
