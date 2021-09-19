@@ -40,9 +40,11 @@ function InstructorDetails() {
             </div>
 
             <div>
-              <h2 className="contact-head">
+              <h1 className="contact-head">
                 Any Question? Contact directly to {instructor.name}
-              </h2>
+              </h1>
+                <br />
+                <h2 className="contact-head">Scroll up to know More about {instructor.name} </h2>
               <div>
                 <>
                   <div className="container1">

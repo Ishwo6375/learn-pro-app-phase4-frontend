@@ -38,7 +38,7 @@ function CourseDetails() {
                 <img className="course-img" alt="course-pic" src={course.image} />
                 <div className="course-items">
                   <h4>Duration: {course.duration}</h4>
-                  <h4>Rating: {course.rate}</h4>
+                  <h4>Average Rating: {course.rate}</h4>
                   <h5>Cost: ${course.price}</h5>
                 </div>
                 <div>
