@@ -7,20 +7,21 @@ function CourseForm() {
     const history = useHistory();
 
     const [courseForm, setCourseForm] = useState({
-        courseName: "",
+        course_name: "",
         description: "",
         image: "",
         duration: "",
-        courseType: "",
+        course_type: "",
+        rate: "",
         price: "",
-        instructorId: ""
+        instructor_id: ""
     })
 
     function onHandleChange(e){
         setCourseForm({...courseForm, [e.target.name]: e.target.value});
     }
 
-     //Post request to get new student
+     //Post request to get new course
     
     function onSubmitAddCourses(e){
         e.preventDefault();
@@ -30,14 +31,15 @@ function CourseForm() {
           "Content-Type": "application/json"
         }, 
         body: JSON.stringify({
-          courseName: courseForm.course_name,
+          course_name: courseForm.course_name,
           description: courseForm.description,
           image: courseForm.image,
           duration: courseForm.duration,
-          courseType: courseForm.course_type,
+          course_type: courseForm.course_type,
+          rate: courseForm.rate,
           price: courseForm.price,
-          instructorId: courseForm.instructor_id
-        })   
+          instructor_id: courseForm.instructor_id
+        })  
     };
 
     fetch(`${baseURL}/courses`, config)
@@ -64,7 +66,7 @@ function CourseForm() {
                          classname="input-1" 
                         type="text"
                          placeholder="Enter  Course Title" 
-                         name="name"
+                         name="course_name"
                          value={courseForm.course_name}
                          onChange={onHandleChange}
                          />
@@ -108,7 +110,7 @@ function CourseForm() {
                         classname="input-1" 
                         type="text"
                          placeholder="Course type.." 
-                         name="type"
+                         name="course_type"
                          value={courseForm.course_type}
                          onChange={onHandleChange}
                          />
@@ -131,10 +133,21 @@ function CourseForm() {
                         classname="input-1" 
                         type="number"
                          placeholder="Enter your instructor id.." 
-                         name="instructor id"
+                         name="instructor_id"
                          value={courseForm.instructor_id}
                          onChange={onHandleChange}
                          /> 
+
+                          <div className="login-1">
+                        <input 
+                        classname="input-1" 
+                        type="number"
+                         placeholder="Enter average rate..." 
+                         name="rate"
+                         value={courseForm.rate}
+                         onChange={onHandleChange}
+                         /> 
+                    </div>
                     </div>
                     <button onClick={onSubmitAddCourses} className="btn-1">Register Course</button>
                 </form>
