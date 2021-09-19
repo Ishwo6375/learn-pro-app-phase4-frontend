@@ -1,17 +1,17 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import Home from './Pages/Home';
-import Navbar from './NavBar/Navbar';
-import CourseContainer from './Pages/CourseContainer';
-import CourseDetails from './Pages/CourseDetails';
-import Instructor from './Pages/Instructor';
-import Students from './Pages/Students';
-import StudentForm from './Forms/StudentForm';
-import EditStudents from './Forms/EditStudents';
-import InstructorForm from './Forms/InstructorForm';
-import InstructorDetails from './Pages/InstructorDetails';
-import Footer from './Pages/Footer';
+import Home from './components/Pages/Home';
+import CourseContainer from './components/Pages/CourseContainer';
+import CourseDetails from './components/Pages/CourseDetails';
+import Instructor from './components/Pages/Instructor';
+import Students from './components/Pages/Students';
+import StudentForm from './components/Forms/StudentForm';
+import EditStudents from './components/Forms/EditStudents';
+import InstructorForm from './components/Forms/InstructorForm';
+import InstructorDetails from './components/Pages/InstructorDetails';
+import Footer from './components/Pages/Footer';
+import Navbar from './components/NavBar/Navbar';
 
 
 
@@ -20,7 +20,7 @@ function App() {
   return (
     <Router> 
     <div className="div-container">
-      <Navbar />
+     <Navbar />
       <Switch>
       <Route exact path="/">
             <Home />

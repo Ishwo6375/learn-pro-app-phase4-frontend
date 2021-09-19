@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+
 import "../styles/courseDetails.css";
 
 // import { Link } from "react-router-dom";
@@ -7,6 +8,7 @@ import "../styles/courseDetails.css";
 function CourseDetails() {
   const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";
   const [course, setCourse] = useState([]);
+  
 
   const { id } = useParams();
 
@@ -17,6 +19,8 @@ function CourseDetails() {
       .then((courseDetail) => setCourse(courseDetail));
     // eslint-disable-next-line
   }, []);
+
+  console.log(course)
 
   return (
     <div>
@@ -35,9 +39,12 @@ function CourseDetails() {
                   <h4>Duration: {course.duration}</h4>
                   <h4>Rating: {course.rate}</h4>
                   <h5>Cost: ${course.price}</h5>
+
                 </div>
-                  <button className=" btn btn-secondary">Apply Now</button>
-                <div>
+                  <div>
+                   
+                 
+                  
                 </div>
               </div>
             </div>

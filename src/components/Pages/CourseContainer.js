@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "../styles/courseContainer.css";
+import "../styles/courseContainer.css"
 
 
 function CourseContainer() {
@@ -83,7 +83,7 @@ function CourseContainer() {
               </div>
              
               <Link className="btn btn-info" to={`/courses/${course.id}`}> View More</Link>
-              <Link className="btn btn-secondary" to={`/instructors/${course.instructor.id}`}>Instructor</Link>
+              <Link className="btn btn-primary" to={`/instructors/${course.instructor.id}`}>Instructor</Link>
                
             </div>
           </div>
