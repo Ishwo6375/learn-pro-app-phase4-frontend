@@ -26,12 +26,12 @@ function CourseContainer() {
       <div className="course-main">
        
          <form className="d-flex my-3">
-        <input className="form-control me-3" type="search" placeholder="What you want to learn?" aria-label="Search"
+        <input className="text form-control me-3" type="search" placeholder="What you want to learn?" aria-label="Search"
             onChange={(e) => {
             setSearchTerm(e.target.value);
           }}
          />
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button className="btn btn-outline-success" type="submit">Search</button>
       </form>
       </div>
         

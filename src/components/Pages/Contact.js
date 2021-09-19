@@ -7,7 +7,7 @@ function Contact() {
       <div className="contactOverlay">
         <div className="container">
           <div className="form">
-            <form action="" onSubmit="">
+            <form className="form-2" action="" onSubmit="">
               <div className="formWord">
                 <h2>Say Hello!</h2>
                 <span>Full Name</span>

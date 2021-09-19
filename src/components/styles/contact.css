@@ -1,3 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
 .contactme {
   width: 100%;
   background-image: url("http://www.mmasynergy.com/images/inner-banner.jpg");
@@ -12,8 +19,9 @@
   padding-bottom: 10%;
  background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7)),
     url("https://images.unsplash.com/photo-1512626120412-faf41adb4874?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80");
+    
 }
-.form {
+.form-1 {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,7 +33,7 @@
   -ms-flex-align: center;
   align-items: center;
 }
-form {
+.form-2 {
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;

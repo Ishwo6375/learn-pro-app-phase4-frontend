@@ -57,11 +57,13 @@ function InstructorDetails() {
                         type="text"
                         placeholder="Your Name"
                         className="input"
+                        required
                       />
                       <input
                         type="text"
                         placeholder="Your Email Address"
                         className="input"
+                        required
                       />
                     </div>
 
@@ -70,6 +72,7 @@ function InstructorDetails() {
                         type="text"
                         placeholder="Subject"
                         className="input"
+                        required
                       />
                     </div>
 
@@ -77,6 +80,7 @@ function InstructorDetails() {
                       <textarea
                         className="area"
                         placeholder="Leave a Message"
+                        required
                       ></textarea>
                       
                     </div>
