@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "../styles/courseDetails.css";
 
@@ -20,7 +21,7 @@ function CourseDetails() {
     // eslint-disable-next-line
   }, []);
 
-  console.log(course)
+ 
 
   return (
     <div>
@@ -39,7 +40,9 @@ function CourseDetails() {
                   <h4>Duration: {course.duration}</h4>
                   <h4>Rating: {course.rate}</h4>
                   <h5>Cost: ${course.price}</h5>
-
+                </div>
+                <div>
+                  <Link className="btn btn-info" to={"/enroll"}>Apply Now</Link>
                 </div>
                   <div>
                    

@@ -1,7 +1,7 @@
 import React, { useState , useEffect } from "react";
 import  {useHistory } from 'react-router';
 import { useParams } from "react-router-dom";
-import "../styles/InstructorDetails.css";
+import './EditStudent.css'
 
 
 function EditStudents() {
@@ -56,13 +56,13 @@ function EditStudents() {
    
 
     return (
-        <div className="container1">
+        <div className="container-1">
               <h2 className="add">Edit Student</h2>
 
                 <form onSubmit={onSubmitEditStudent}>
-                    <div className="login">
+                    <div className="login-1">
                         <input 
-                        classname="input" 
+                        classname="" 
                         type="text"
                          placeholder="Enter Student Name.." 
                          name="name"
@@ -71,9 +71,9 @@ function EditStudents() {
                          />
                     </div>
 
-                    <div className="login">
+                    <div className="login-1">
                         <input 
-                        classname="input" 
+                        classname="input-1" 
                         type="text"
                          placeholder="Enter email address.." 
                          name="email"
@@ -82,9 +82,9 @@ function EditStudents() {
                          />
                     </div>
 
-                    <div className="login">
+                    <div className="login-1">
                         <input 
-                        classname="input" 
+                        classname="input-1" 
                         type="text"
                          placeholder="Enter gender.." 
                          name="gender"
@@ -93,9 +93,9 @@ function EditStudents() {
                          />
                     </div>
 
-                    <div className="login">
+                    <div className="login-1">
                         <input 
-                        classname="input" 
+                        classname="input-1" 
                         type="text"
                          placeholder="Enter image url.." 
                          name="image"
@@ -104,9 +104,9 @@ function EditStudents() {
                          />
                     </div>
 
-                    <div className="login">
+                    <div className="login-1">
                         <input 
-                        classname="input" 
+                        classname="input-1" 
                         type="number"
                          placeholder="Enter registratopm Infromation.." 
                          name="Registration_num"

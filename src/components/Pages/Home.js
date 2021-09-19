@@ -28,7 +28,7 @@ function Home() {
               <br />
               Apply Now
               <br />
-              <Link className="btn btn-primary" to={"/students"}>
+              <Link className="btn btn-primary" to={"/course/add"}>
                  <h4>Add Course</h4>
               </Link>
             </h2>
@@ -48,6 +48,8 @@ function Home() {
             <Link className="btn btn-primary" to={"/enroll"}>
               <h4>Enroll</h4>
             </Link>
+
+            
 
             </div>
           </div>

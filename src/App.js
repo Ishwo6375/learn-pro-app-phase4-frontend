@@ -12,6 +12,7 @@ import InstructorForm from './components/Forms/InstructorForm';
 import InstructorDetails from './components/Pages/InstructorDetails';
 import Footer from './components/Pages/Footer';
 import Navbar from './components/NavBar/Navbar';
+import CourseForm from './components/Forms/CourseForm';
 
 
 
@@ -49,10 +50,13 @@ function App() {
           <Route exact path="/instructors/:id">
             <InstructorDetails />
           </Route>
+          <Route exact path="/course/add">
+            <CourseForm />
+          </Route>
           
       </Switch>
-          <Footer />
     </div>
+        <Footer />
     </Router>
   );
 }

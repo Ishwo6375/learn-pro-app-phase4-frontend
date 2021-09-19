@@ -2,7 +2,7 @@
 
 .container1 {
   max-width: 800px;
-  height: 600px;
+  height: 60vh;
   font-size: 30px;
   font-weight: bold;
   background-size: cover;
@@ -13,11 +13,13 @@
   padding: 40px;
   background-size: cover;
   background-position: center;
+ 
   
 }
 
-.login .input:last-child {
+.login .input {
   margin-right: 0;
+ font-weight: bold;
 }
 
 .input,
@@ -31,6 +33,7 @@
   border-radius: 5px;
   outline: none;
   transform: all 0.5s ease;
+  font-weight: bold;
 }
 
 .msg .area {

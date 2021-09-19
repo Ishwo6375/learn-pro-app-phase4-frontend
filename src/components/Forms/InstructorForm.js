@@ -40,11 +40,12 @@ function onSubmitInstructor(e){
  };
 
     return (
-       <div className="container1">
+       <div className="container-1">
             <div>
                 <h2 className="add">Enter your details</h2>
 
                 <form>
+                    <lable>Full Name</lable>
                     <div className="login">
                         <input 
                         classname="input" 
@@ -55,7 +56,7 @@ function onSubmitInstructor(e){
                          onChange={onHandleChange}
                          />
                     </div>
-
+                     <label>Image Url</label>
                     <div className="login">
                         <input 
                         classname="input" 
@@ -66,7 +67,7 @@ function onSubmitInstructor(e){
                          onChange={onHandleChange}
                          />
                     </div>
-
+                      <label>About</label>
                     <div className="login">
                         <input 
                         classname="input" 

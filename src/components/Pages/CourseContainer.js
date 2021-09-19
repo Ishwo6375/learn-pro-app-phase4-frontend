@@ -67,6 +67,7 @@ function CourseContainer() {
               ) {
                 return value;
               }
+              
             }).map((course, idx) => (
           <div key={idx}>
             <div className="card-container">

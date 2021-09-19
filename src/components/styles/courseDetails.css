@@ -8,7 +8,11 @@
 
 
 .course-head{
-  color: rgb(59, 64, 68);
+  color: rgb(236, 243, 248);
+  font-weight: bold;
+   font-family: 'Exo 2', sans-serif;
+   font-size: 50px;
+   margin-bottom: 30px;
 }
 
 .course-main{
@@ -100,4 +104,9 @@ footer{
 
 .course-price{
   text-align: center;
+}
+
+label{
+  font-family: 'Exo 2', sans-serif;
+ 
 }

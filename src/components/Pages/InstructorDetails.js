@@ -15,6 +15,10 @@ function InstructorDetails() {
     // eslint-disable-next-line
   }, []);
 
+ function onClickMsg(){
+ return alert("Thank you for Contacting me..")
+ }
+
   return (
     <div className="ins-profile">
       {instructor && (
@@ -72,7 +76,9 @@ function InstructorDetails() {
                       ></textarea>
                       
                     </div>
-                    <div className="btn-3">Send Message</div>
+                    <div onClick={onClickMsg} className="btn-3">
+                      Send Message
+                      </div>
                   </div>
                 </>
               </div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import  {useHistory } from 'react-router';
+import './EditStudent.css'
 
 
 
@@ -54,11 +55,12 @@ function StudentForm() {
 
 
     return (
-        <div className="container1 ">
+        <div className="container-1">
             <div>
-                <h2 className="add">Add New Students</h2>
+                <h2 className="add">Enter your Details</h2>
 
                 <form>
+                    <label>Full Name</label>
                     <div className="login">
                         <input 
                         classname="input" 
@@ -70,6 +72,7 @@ function StudentForm() {
                          />
                     </div>
 
+                        <label>Email Address</label>
                     <div className="login">
                         <input 
                         classname="input-1" 
@@ -80,7 +83,7 @@ function StudentForm() {
                          onChange={onHandleChange}
                          />
                     </div>
-
+                     <label>Gender</label>
                     <div className="login">
                         <input 
                         classname="input-1" 
@@ -91,7 +94,7 @@ function StudentForm() {
                          onChange={onHandleChange}
                          />
                     </div>
-
+                      <label>Image Url</label>
                     <div className="login">
                         <input 
                         classname="input-1" 
@@ -102,20 +105,22 @@ function StudentForm() {
                          onChange={onHandleChange}
                          />
                     </div>
-
+                       
+                       <label>Registration No.</label>
                     <div className="login">
                         <input 
                         classname="input-1" 
                         type="number"
-                         placeholder="Enter registratopm Infromation.." 
+                         placeholder="Enter registration Infromation.." 
                          name="Registration_num"
                          value={studentForm.Registration_num}
                          onChange={onHandleChange}
                          />
-                    </div>
                     <button onClick={onSubmitAddStudent} className="btn-1">
-              ADD Students
+             Submit
             </button>
+                    </div>
+                    
                 </form>
             </div>
 
