@@ -17,18 +17,18 @@ function Enrollment() {
   return (
     <div>
       <div className="enroll-div">
-          <div className="enroll-content">
-              <div>
-                  <h2>Our Upcoming Sessions</h2>
-              </div>
-              <div className="enroll-items">
-                {enrollments.map((enrollment, idx )=> (
-                    <div>
-                        <h3>{enrollment.enrollment_semester}</h3>
-                    </div>
-                ))}
-              </div>
+        <div className="enroll-content">
+          <div>
+            <h2>Our Upcoming Sessions</h2>
           </div>
+          <div className="enroll-items">
+            {enrollments.map((enrollment, idx) => (
+              <div>
+                <h3>{enrollment.enrollment_semester}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

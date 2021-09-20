@@ -116,3 +116,11 @@ label{
  
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: rgb(229, 233, 17);
+}

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import "./EditStudent.css";
 
 function EditStudents() {
@@ -51,6 +53,8 @@ function EditStudents() {
   }
 
   return (
+    <>
+      <Link className="btn btn-info" to={"/students"}>Back To Students</Link>
     <div className="container-1">
       <h2 className="add">Edit Student</h2>
 
@@ -112,7 +116,7 @@ function EditStudents() {
         </div>
 
         <div>
-           <label>
+          <label>
             <h4>REGISTRATION NUMBER</h4>
           </label>
           <input
@@ -130,6 +134,7 @@ function EditStudents() {
         </div>
       </form>
     </div>
+    </>
   );
 }
 

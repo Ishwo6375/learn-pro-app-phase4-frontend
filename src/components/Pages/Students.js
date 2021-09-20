@@ -5,7 +5,6 @@ import { faUserMinus } from "@fortawesome/free-solid-svg-icons";
 import { faUserEdit } from "@fortawesome/free-solid-svg-icons";
 
 import "../styles/courseContainer.css";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 function Students() {
   const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";
@@ -49,10 +48,7 @@ function Students() {
               <h5>Resgistration No: CCBC{student.Registration_num}</h5>
               <Link
                 className="btn btn-primary mx-3"
-                to={`/students/edit/${student.id}`}
-              >
-                <FontAwesomeIcon icon={faUserEdit} />
-              </Link>
+                to={`/students/edit/${student.id}`}><FontAwesomeIcon icon={faUserEdit} /></Link>
               <button
                 onClick={() => deleteStudent(student)}
                 className="btn btn-danger mx-2">

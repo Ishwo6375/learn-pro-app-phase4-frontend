@@ -7,11 +7,9 @@ function InstructorDetails() {
   const { id } = useParams();
   const [instructor, setInstructor] = useState([]);
 
-  function onSubmit(e){
+  function onSubmit(e) {
     e.preventDefault();
-    return (
-      <p>Your Messege is sent!!!</p>
-    )
+    return <p>Your Messege is sent!!!</p>;
   }
 
   //getting request by id
@@ -22,16 +20,15 @@ function InstructorDetails() {
     // eslint-disable-next-line
   }, []);
 
- 
-
   return (
     <div className="ins-profile">
       {instructor && (
         <>
-        <Link className="btn btn-info" to={"/instructors"}>Back</Link>
+          <Link className="btn btn-info" to={"/instructors"}>
+            Back
+          </Link>
           <div className="ins-content">
-          
-            <div >
+            <div>
               <h1 className="ins-heading">{instructor.name}</h1>
             </div>
             <div className="div-content">
@@ -49,8 +46,10 @@ function InstructorDetails() {
               <h1 className="contact-head">
                 Any Question? Contact directly to {instructor.name}
               </h1>
-                <br />
-                <h2 className="contact-head">Scroll up to know More about {instructor.name} </h2>
+              <br />
+              <h2 className="contact-head">
+                Scroll up to know More about {instructor.name}{" "}
+              </h2>
               <div>
                 <>
                   <div className="container1">
@@ -86,12 +85,14 @@ function InstructorDetails() {
                         placeholder="Leave a Message"
                         required
                       ></textarea>
-                      
                     </div>
-                    <div><button onClick={onSubmit} className="btn-3"> Send Message</button></div>
-                    
-                      </div>
-                  
+                    <div>
+                      <button onClick={onSubmit} className="btn-3">
+                        {" "}
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
                 </>
               </div>
             </div>

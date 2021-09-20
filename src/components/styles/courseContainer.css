@@ -67,8 +67,10 @@ h3 {
 .picture-div {
   width: 100%;
   margin-bottom: 100px;
-  background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7)),
-    url(bg.jpg);
+  background: linear-gradient(rgba(28, 188, 156, 0.5), rgba(142, 68, 173, 0.5)),
+    url("bg.jpg");
+     background-size: cover;
+  background-position: center;
   color: white;
   padding: 70px;
   font-size: 30px;
@@ -139,5 +141,31 @@ h3 {
   text-align: center;
   
 }
+
+
+.main-nav-active{
+    color: rgb(212, 235, 11);
+    text-decoration: underline;
+    transition: all 5s ease-in-out;
+}
+
+.main-nav-active-1{
+    color: rgb(222, 235, 236);
+    transition: all 2s ease-in-out;
+}
+
+span{
+  font-size: 20px;
+  color: rgb(32, 34, 30);
+  font-weight: bold;
+}
+
+.span-1{
+  font-size: 20px;
+  color: rgb(255, 238, 0);
+  font-weight: bold;
+}
+
+
 
 
