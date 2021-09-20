@@ -22,7 +22,7 @@ function Students() {
       method: "DELETE",
     });
     const newStudent = students.filter(
-      (res) => res.id !== student.id
+      (std) => std.id !== student.id
     );
     setStudents(newStudent);
   }

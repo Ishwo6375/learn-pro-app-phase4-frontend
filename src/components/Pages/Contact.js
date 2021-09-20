@@ -3,11 +3,13 @@ import "../styles/contact.css"
 
 function Contact() {
     return (
+        <>
+            <h1 className="contact-head">Contact Us</h1>
         <div className="contactme" id="contact">
       <div className="contactOverlay">
         <div className="container">
           <div className="form">
-            <form className="form-2" action="" onSubmit="">
+            <form className="form-2">
               <div className="formWord">
                 <h2>Say Hello!</h2>
                 <span>Full Name</span>
@@ -37,6 +39,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
     )
 }
 

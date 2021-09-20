@@ -22,7 +22,9 @@ function Home() {
             <h2>
               Are you Experienced about teaching Online? Part-time or full time
               <br />
-              Get Hired !!!
+              Introduce your course to our
+            
+              Network
               <br />
               Apply Today!!!
               <br />
