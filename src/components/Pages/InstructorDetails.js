@@ -1,16 +1,38 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import "../styles/InstructorDetails.css";
+import emailjs from "emailjs-com";
 
 function InstructorDetails() {
   const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";
   const { id } = useParams();
   const [instructor, setInstructor] = useState([]);
 
-  function onSubmit(e) {
+  const Result = () => {
+  return (
+    <h5 className="contact-head">Your messege has been successfully sent. I will contact you soon..</h5>
+  );
+};
+
+  const [result, showResult] = useState(false);
+
+  function sendEmail(e) {
     e.preventDefault();
-    return <p>Your Messege is sent!!!</p>;
+    emailjs
+      .sendForm(
+        "service_9b93s0p",
+        "template_x5r8lda",
+        e.target,
+        "user_6sPNsSlwqHcFn0VD0xIvh"
+      )
+      .then((result) => {
+        console.log(result.text);
+      })
+      .catch((error) => console.log(error.text));
+    e.target.reset();
+    showResult(true);
   }
+
 
   //getting request by id
   useEffect(() => {
@@ -54,11 +76,12 @@ function InstructorDetails() {
                 <>
                   <div className="container1">
                     <p className="contact-p">CONTACT {instructor.name}</p>
-
+                     <form onSubmit={sendEmail}>
                     <div className="login">
                       <input
                         type="text"
                         placeholder="Your Name"
+                        name="name"
                         className="input"
                         required
                       />
@@ -73,6 +96,7 @@ function InstructorDetails() {
                     <div className="subject">
                       <input
                         type="text"
+                        name="subject"
                         placeholder="Subject"
                         className="input"
                         required
@@ -82,21 +106,23 @@ function InstructorDetails() {
                     <div className="msg">
                       <textarea
                         className="area"
+                        name="message"
                         placeholder="Leave a Message"
                         required
                       ></textarea>
                     </div>
                     <div>
-                      <button onClick={onSubmit} className="btn-3">
-                        {" "}
-                        Send Message
-                      </button>
+                    <button className="btn-3">SUBMIT</button>
+                  <div className="row">{result ? <Result /> : null}</div>
+             
                     </div>
+                    </form>
                   </div>
                 </>
               </div>
             </div>
           </div>
+            
         </>
       )}
     </div>

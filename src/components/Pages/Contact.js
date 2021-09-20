@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 
 const Result = () => {
   return (
-    <h5>Your messege has been successfully sent. We will contact you soon..</h5>
+    <h5>Your messege has been successfully sent. We will contact you soon..Thank You</h5>
   );
 };
 
