@@ -7,6 +7,13 @@ function InstructorDetails() {
   const { id } = useParams();
   const [instructor, setInstructor] = useState([]);
 
+  function onSubmit(e){
+    e.preventDefault();
+    return (
+      <p>Your Messege is sent!!!</p>
+    )
+  }
+
   //getting request by id
   useEffect(() => {
     fetch(`${baseURL}/instructors/${id}`)
@@ -15,9 +22,7 @@ function InstructorDetails() {
     // eslint-disable-next-line
   }, []);
 
- function onClickMsg(){
- return alert("Thank you for Contacting me..")
- }
+ 
 
   return (
     <div className="ins-profile">
@@ -83,10 +88,10 @@ function InstructorDetails() {
                       ></textarea>
                       
                     </div>
-                    <div onClick={onClickMsg} className="btn-3">
-                      Send Message
+                    <div><button onClick={onSubmit} className="btn-3"> Send Message</button></div>
+                    
                       </div>
-                  </div>
+                  
                 </>
               </div>
             </div>
