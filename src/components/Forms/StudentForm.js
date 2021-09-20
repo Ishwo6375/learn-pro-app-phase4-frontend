@@ -60,7 +60,7 @@ function StudentForm() {
                 <h2 className="add">Enter your Details</h2>
 
                 <form className="form-control my-5 py-5">
-                    <label><h4>FULL NAME</h4></label>
+                    <label><h4>STUDENT FULL NAME</h4></label>
                     <div>
                         <input 
                         className="input" 
@@ -106,7 +106,7 @@ function StudentForm() {
                          />
                     </div>
                        
-                       <label><h4>EMAIL ADDRESS</h4></label>
+                       <label><h4>REGISTRATION NUMBER</h4></label>
                     <div className="login">
                         <input 
                         className="input-1" 
