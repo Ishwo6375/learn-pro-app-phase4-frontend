@@ -44,11 +44,11 @@ function onSubmitInstructor(e){
             <div>
                 <h2 className="add">Enter your details</h2>
 
-                <form>
-                    <lable>Full Name</lable>
+                <form className="form-control my-5 py-5 ">
+                    <label><h4>FULL NAME</h4></label>
                     <div className="login">
                         <input 
-                        classname="input" 
+                        className="input" 
                         type="text"
                          placeholder="Enter Name.." 
                          name="name"
@@ -56,10 +56,10 @@ function onSubmitInstructor(e){
                          onChange={onHandleChange}
                          />
                     </div>
-                     <label>Image Url</label>
+                     <label><h4>Image URL</h4></label>
                     <div className="login">
                         <input 
-                        classname="input" 
+                        className="input" 
                         type="text"
                          placeholder="Enter image Url.." 
                          name="image"
@@ -67,10 +67,10 @@ function onSubmitInstructor(e){
                          onChange={onHandleChange}
                          />
                     </div>
-                      <label>About</label>
+                     <label> <h4>ABOUT</h4></label>
                     <div className="login">
                         <input 
-                        classname="input" 
+                        className="input" 
                         type="text"
                          placeholder="Enter description.." 
                          name="description"

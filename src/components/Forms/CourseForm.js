@@ -60,10 +60,10 @@ function CourseForm() {
             <div>
                 <h2 className="add">Course Details</h2>
 
-                <form>
-                    <div className="login-1">
+                <form className="form-control my-5 py-5 ">
+                    <div>
                         <input 
-                         classname="input-1" 
+                         className="input-1" 
                         type="text"
                          placeholder="Enter  Course Title" 
                          name="course_name"
@@ -72,9 +72,9 @@ function CourseForm() {
                          />
                     </div>
 
-                    <div className="login-1">
+                    <div >
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="text"
                          placeholder="Description about course" 
                          name="description"
@@ -83,9 +83,9 @@ function CourseForm() {
                          />
                     </div>
 
-                    <div className="login-1">
+                    <div>
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="text"
                          placeholder="Course Image Url" 
                          name="image"
@@ -94,9 +94,9 @@ function CourseForm() {
                          />
                     </div>
 
-                    <div className="login-1">
+                    <div >
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="text"
                          placeholder="Course Duration" 
                          name="duration"
@@ -105,9 +105,9 @@ function CourseForm() {
                          />
                     </div>
 
-                    <div className="login-1">
+                    <div >
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="text"
                          placeholder="Course type.." 
                          name="course_type"
@@ -117,9 +117,9 @@ function CourseForm() {
                     </div>
 
 
-                    <div className="login-1">
+                    <div >
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="number"
                          placeholder="course cost" 
                          name="price"
@@ -128,9 +128,9 @@ function CourseForm() {
                          /> 
                     </div>
 
-                     <div className="login-1">
+                     <div >
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="number"
                          placeholder="Enter your instructor id.." 
                          name="instructor_id"
@@ -138,9 +138,9 @@ function CourseForm() {
                          onChange={onHandleChange}
                          /> 
 
-                          <div className="login-1">
+                          <div>
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="number"
                          placeholder="Enter average rate..." 
                          name="rate"

@@ -59,11 +59,11 @@ function StudentForm() {
             <div>
                 <h2 className="add">Enter your Details</h2>
 
-                <form>
-                    <label>Full Name</label>
-                    <div className="login">
+                <form className="form-control my-5 py-5">
+                    <label><h4>FULL NAME</h4></label>
+                    <div>
                         <input 
-                        classname="input" 
+                        className="input" 
                         type="text"
                          placeholder="Enter Student Name.." 
                          name="name"
@@ -72,10 +72,10 @@ function StudentForm() {
                          />
                     </div>
 
-                        <label>Email Address</label>
-                    <div className="login">
+                        <label><h4>Email Address</h4></label>
+                    <div >
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="text"
                          placeholder="Enter email address.." 
                          name="email"
@@ -83,10 +83,10 @@ function StudentForm() {
                          onChange={onHandleChange}
                          />
                     </div>
-                     <label>Gender</label>
+                     <label><h4>GENDER</h4></label>
                     <div className="login">
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="text"
                          placeholder="Enter gender.." 
                          name="gender"
@@ -94,10 +94,10 @@ function StudentForm() {
                          onChange={onHandleChange}
                          />
                     </div>
-                      <label>Image Url</label>
+                      <label><h4>IMAGE URL</h4></label>
                     <div className="login">
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="text"
                          placeholder="Enter image url.." 
                          name="image"
@@ -106,10 +106,10 @@ function StudentForm() {
                          />
                     </div>
                        
-                       <label>Registration No.</label>
+                       <label><h4>EMAIL ADDRESS</h4></label>
                     <div className="login">
                         <input 
-                        classname="input-1" 
+                        className="input-1" 
                         type="number"
                          placeholder="Enter registration Infromation.." 
                          name="Registration_num"
