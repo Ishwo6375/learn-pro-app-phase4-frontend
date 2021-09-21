@@ -63,6 +63,7 @@ function StudentForm() {
               name="name"
               value={studentForm.name}
               onChange={onHandleChange}
+              required
             />
           </div>
 
@@ -77,6 +78,7 @@ function StudentForm() {
               name="email"
               value={studentForm.email}
               onChange={onHandleChange}
+              required
             />
           </div>
           <label>
@@ -90,6 +92,7 @@ function StudentForm() {
               name="gender"
               value={studentForm.gender}
               onChange={onHandleChange}
+              required
             />
           </div>
           <label>
@@ -103,6 +106,7 @@ function StudentForm() {
               name="image"
               value={studentForm.image}
               onChange={onHandleChange}
+              required
             />
           </div>
 
@@ -117,6 +121,7 @@ function StudentForm() {
               name="Registration_num"
               value={studentForm.Registration_num}
               onChange={onHandleChange}
+              required
             />
             <button onClick={onSubmitAddStudent} className="btn-1">
               Submit

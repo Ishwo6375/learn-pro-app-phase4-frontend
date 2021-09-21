@@ -23,7 +23,7 @@ function Home() {
                 Are you Experienced about teaching Online? Part-time or full
                 time
                 <br />
-                Introduce your course to our Network
+                Introduce your course to our Students
                 <br />
                 Apply Today!!!
                 <br />

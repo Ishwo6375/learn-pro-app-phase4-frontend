@@ -9,8 +9,19 @@ import "../styles/courseDetails.css";
 function CourseDetails() {
   const baseURL = "https://learn-pro-phase4-backend.herokuapp.com/";
   const [course, setCourse] = useState([]);
+  const [courses, setCourses] = useState([]);
 
   const { id } = useParams();
+
+  useEffect(() => {
+    showCourses();
+  }, []);
+
+  function showCourses() {
+    fetch(`${baseURL}/courses`)
+      .then((res) => res.json())
+      .then((courseData) => setCourses(courseData));
+  }
 
   //getting request by id
   useEffect(() => {
@@ -49,6 +60,7 @@ function CourseDetails() {
                   <Link className="btn btn-info" to={"/enroll"}>
                     Apply Now
                   </Link>
+                  
                 </div>
                 <div></div>
               </div>

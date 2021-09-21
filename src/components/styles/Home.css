@@ -21,7 +21,7 @@
 }
 
 .main-container{
-     background: linear-gradient(rgba(53, 115, 231, 0.7), rgba(70, 70, 58, 0.7)),url(bgh.jpeg);
+     background: linear-gradient(rgba(53, 115, 231, 0.5), rgba(70, 70, 58, 0.7)),url(bgh.jpeg);
       background-size: cover;
   background-position: center;
   margin-bottom: -20px;

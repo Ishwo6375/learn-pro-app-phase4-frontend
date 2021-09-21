@@ -10,7 +10,7 @@ function InstructorDetails() {
 
   const Result = () => {
   return (
-    <h5 className="contact-head">Your messege has been successfully sent. I will contact you soon..</h5>
+    <h5 className="contact-head">Your messege has been successfully sent.{instructor.name} will contact you soon..</h5>
   );
 };
 

@@ -72,7 +72,7 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   font-family: "Exo 2", sans-serif;
-  background: linear-gradient(rgba(28, 188, 156, 0.7), rgba(142, 68, 173, 0.7)),
+  background: linear-gradient(rgba(28, 188, 156, 0.5), rgba(142, 68, 173, 0.5)),
     url("https://images.pexels.com/photos/8106657/pexels-photo-8106657.jpeg?cs=srgb&dl=pexels-karolina-grabowska-8106657.jpg&fm=jpg");
   background-size: cover;
   background-position: center;
