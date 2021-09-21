@@ -14,6 +14,7 @@ import Footer from './components/Pages/Footer';
 import Navbar from './components/NavBar/Navbar';
 import CourseForm from './components/Forms/CourseForm';
 import Contact from './components/Pages/Contact';
+import StudentDetails from './components/Pages/StudentDetails';
 
 
 
@@ -44,6 +45,9 @@ function App() {
           </Route>
           <Route exact path="/students/edit/:id">
             <EditStudents />
+          </Route>
+            <Route exact path="/students/:id">
+           <StudentDetails />
           </Route>
           <Route exact path="/instructor/add">
             <InstructorForm />

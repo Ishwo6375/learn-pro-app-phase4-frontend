@@ -48,7 +48,7 @@ function EditStudents() {
       .then((res) => res.json())
       .then((newStudent) => {
         setEditStudent(newStudent);
-        history.push("/students");
+        history.push(`/students/${id}`)
       });
   }
 

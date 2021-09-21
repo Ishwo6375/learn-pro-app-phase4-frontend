@@ -54,6 +54,12 @@ function Students() {
                 className="btn btn-danger mx-2">
                 <FontAwesomeIcon icon={faUserMinus} />
               </button>
+              <Link
+                        className="btn btn-primary"
+                        to={`/students/${student.id}`}
+                      >
+                        View Details
+                      </Link>
             </div>
           ))}
         </div>

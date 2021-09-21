@@ -55,7 +55,7 @@ function CourseContainer() {
           </p>
           <br />
           <div>
-            <h2>view our enrolled students</h2>
+            <h2>View our enrolled students</h2>
             <Link className="btn-3 btn-secondary" to={"/students"}>
               
               Enrolled Students
@@ -69,6 +69,7 @@ function CourseContainer() {
       </div>
       <div className="course-container-2">
         {courses
+         // eslint-disable-next-line
           .filter((value) => {
             if (searchTerm === "") {
               return value;

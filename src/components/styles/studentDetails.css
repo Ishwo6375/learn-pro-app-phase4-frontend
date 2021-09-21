@@ -1,0 +1,11 @@
+.std-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.std-img{
+    width: 450px;
+}
